@@ -40,6 +40,7 @@ void quicksort(int *arr, int low, int high)
 
 int mian(void)
 {
+	//快速排序算法测试
 	int array[] = {56,45,89,76,2};
 	quicksort(array, 0, array.size() - 1);
 	return 0;
