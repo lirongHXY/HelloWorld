@@ -41,6 +41,6 @@ void quicksort(int *arr, int low, int high)
 int mian(void)
 {
 	int array[] = {56,45,89,76,2};
-	sort(array, sizeof(array) / sizeof(array[0]));
+	quicksort(array, 0, array.size() - 1);
 	return 0;
 }
